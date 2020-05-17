@@ -41,4 +41,26 @@ fn main() {
     println!("{}",signed_int);
     let signed_int = signed_int -34;
     println!("{}",signed_int);
+
+
+    // FLOAT POINT VARIABLES
+    let float_32:f32 = 3.14;
+    println!("{}",float_32);
+    let float_64:f64 = 3.1234589;
+    println!("{}",float_64);
+
+    // WORKING WITH NUMERIC OPRATIONS
+    let sum:i32 = 3 + 2;
+    println!("{}",sum);
+    let sub:i32 = sum - 2;
+    println!("{}",sub);
+    let mul:i32 = sum * sub;
+    println!("{}",mul);
+    let div:f32 = (sum as f32) / (mul as f32);
+    println!("{}",div);
+    let rem:i32 = sum % sub;
+    println!("{}",rem);
+
+
+
 }
