@@ -90,3 +90,12 @@
     array[0].1 = 1;
     println!("{}",array[0].0);
 
+    let hexa:(char,i16,i16,i16,i16) = ('#',0,0,0,0);
+    println!("{}{}{}{}{}",hexa.0,hexa.1,hexa.2,hexa.3,hexa.4);
+
+    
+    println!("{}",array[0].0);
+    println!("{:*^16?}",array[0]);
+    println!("Your phone number is:{}{:*>6}",array[0].0,array[1].0);
+
+
