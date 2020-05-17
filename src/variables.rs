@@ -64,4 +64,29 @@
     let rem:i32 = sum % sub;
     println!("{}",rem);
 
+    //TUPLES
+    let rgb:(i16,i16,i16) = (255,120,0);
+    let rgba:(i16,i16,i16,i16) = (255,0,255,10);
+
+    let (r,g,b) = rgb;
+    println!("[ {},{},{} ]",r,g,b);
+    let (r,g,b,a) = rgba;
+    println!("[ {},{},{},{} ]",r,g,b,a);
+
+    let r1:i16 = rgb.0;
+    println!("{}",r1);
+
+    let hexa:(char,i16,i16,i16,i16) = ('#',0,0,0,0);
+    println!("{}{}{}{}{}",hexa.0,hexa.1,hexa.2,hexa.3,hexa.4);
+
+    //ARRAYS
+    let numbers = [1,2,3,4,5];
+    println!("{},{},{},{}",numbers[0],numbers[1],numbers[2],numbers[3]);
+
+    let chars:[char;4] = ['A','B','C','D'];
+    println!("{}{}{}{}",chars[0],chars[1],chars[2],chars[3]);
+
+    let mut array:[(i32,i32,i32); 2] = [(32,33,43),(45,55,66)];
+    array[0].1 = 1;
+    println!("{}",array[0].0);
 
