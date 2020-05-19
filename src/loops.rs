@@ -20,3 +20,16 @@ fn loops_l() {
         }
     }
 }
+
+fn while_loops() {
+    let mut desc = 10;
+    while desc != 0 {
+        println!("{:*<count$}"," ",count = desc);
+        desc -= 1;
+    }
+    let mut asc = 0;
+    while asc != 10 {
+        println!("{}{:*>count$}","#"," ",count = asc);
+        asc += 1;
+    }
+}
