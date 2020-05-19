@@ -1,4 +1,4 @@
-fn loops() {
+fn loops_l() {
     let mut count:i32 = 1;
 
     loop {
