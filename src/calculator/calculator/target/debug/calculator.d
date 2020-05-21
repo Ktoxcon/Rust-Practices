@@ -1,1 +1,0 @@
-C:\Users\familia\Desktop\DOCUMENTOS\ KENNETH\CODIGOS\RUST\rust_practices\src\calculator\calculator\target\debug\calculator.exe: C:\Users\familia\Desktop\DOCUMENTOS\ KENNETH\CODIGOS\RUST\rust_practices\src\calculator\calculator\src\main.rs
