@@ -25,7 +25,10 @@ fn menu(){
     };
 
     for option in (1..4) {
-        if option == 1
+        if option == 1 {
+            println!("MATCHED WITH 1");
+        }
+
     }
     
 
