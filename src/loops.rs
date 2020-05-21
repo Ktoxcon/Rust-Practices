@@ -39,3 +39,14 @@ fn while_loops() {
         spaces -= 1;
     }
 }
+
+fn for_loops() {
+    let items = [10,20,30,40,50];
+    for item in items.iter() {
+        println!{"{}",item};
+    }
+    
+    for item in (1..4).rev() {
+        println!("{}",item);
+    }
+}
